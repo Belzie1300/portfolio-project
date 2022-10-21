@@ -1,37 +1,50 @@
 :root {
   --heading-font-family: "Bodoni Moda", serif;
   --body-font-family: "Source Code Pro", monospace;
+  --font-option-1: "Kantumruy Pro", sans-serif;
   --color-option-1: #de8235;
   --color-option-2: #8facca;
+  --color-option-3: #89a6c6;
+  --color-option-4: #2e3348;
+  --color-option-5: #f7a701;
 }
 ul {
   font-family: var(--body-font-family);
 }
 .hero {
-  background-color: #2e3348;
+  background-color: var(--color-option-4);
   text-align: center;
   padding: 250px 30px;
   color: var(--color-option-1);
 }
 h1 {
-  font-size: 80px;
+  font-size: 90px;
   line-height: 1.5;
   font-family: var(--heading-font-family);
   font-style: italic;
-  font-weight: 400;
+
+  font-weight: 600;
 }
 h3 {
-  font-size: 35px;
-  font-family: var(--heading-font-family);
-  font-style: italic;
+  font-size: 25px;
+  font-family: var(--font-option-1);
 }
-
+p {
+  font-family: var(--font-option-1);
+  text-align: center;
+}
+.bg-light {
+  background-color: var(--color-option-3) !important;
+}
 .sub-heading {
   font-size: 38px;
   text-align: center;
   padding: 50px 0;
-  font-family: var(--heading-font-family);
+  font-family: var(--font-option-1);
 }
-.bg-orange {
-  background: #de8235;
+.btn-outlin-warning {
+  background: var(--color-option-5) !important;
+}
+.project-description {
+  padding: 60px 30px;
 }
