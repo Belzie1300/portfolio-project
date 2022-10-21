@@ -1,12 +1,12 @@
 :root {
-  --heading-font-family: "Major Mono Display", monospace;
-  --body-font-family: "Alumni Sans Pinstripe", sans-serif;
-  --option-font-1: "Bodoni Moda", serif;
-  --option-font-2: "Source Code Pro", monospace;
+  --heading-font-family: "Bodoni Moda", serif;
+  --body-font-family: "Source Code Pro", monospace;
   --color-option-1: #de8235;
   --color-option-2: #8facca;
 }
-
+ul {
+  font-family: var(--body-font-family);
+}
 .hero {
   background-color: #2e3348;
   text-align: center;
@@ -16,12 +16,22 @@
 h1 {
   font-size: 80px;
   line-height: 1.5;
-  font-family: var(--option-font-1);
+  font-family: var(--heading-font-family);
   font-style: italic;
-  font-weight: 800;
+  font-weight: 400;
 }
 h3 {
   font-size: 35px;
-  font-family: var(--option-font-1);
+  font-family: var(--heading-font-family);
   font-style: italic;
+}
+
+.sub-heading {
+  font-size: 38px;
+  text-align: center;
+  padding: 50px 0;
+  font-family: var(--heading-font-family);
+}
+.bg-orange {
+  background: #de8235;
 }
