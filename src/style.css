@@ -9,7 +9,8 @@
   --color-option-5: #f7a701;
 }
 ul {
-  font-family: var(--body-font-family);
+  font-family: var(--font-option-1);
+  font-size: 21px;
 }
 .hero {
   background-color: var(--color-option-4);
@@ -25,6 +26,7 @@ h1 {
 
   font-weight: 600;
 }
+h2,
 h3 {
   font-size: 25px;
   font-family: var(--font-option-1);
@@ -32,6 +34,9 @@ h3 {
 p {
   font-family: var(--font-option-1);
   text-align: center;
+}
+img {
+  border: 15px solid rgb(255, 190, 71, 0.7);
 }
 .bg-light {
   background-color: var(--color-option-3) !important;
@@ -48,3 +53,23 @@ p {
 .project-description {
   padding: 60px 30px;
 }
+.navbar-brand {
+  font-family: var(--heading-font-family);
+}
+@media (max-width: 500px) {
+  .hero {
+    padding: 190px 20px;
+  }
+  h1 {
+    font-size: 75px;
+  }
+  .sub-heading {
+    padding: 25px 0px;
+    font-size: 32px;
+  }
+  .project-description {
+    margin-bottom: 0;
+    padding: 5px 15px;
+    text-align: center;
+  }
+} ;
