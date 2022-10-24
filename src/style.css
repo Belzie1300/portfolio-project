@@ -72,4 +72,7 @@ img {
     padding: 5px 15px;
     text-align: center;
   }
-} ;
+}
+.portrait {
+  width: 500px;
+}
