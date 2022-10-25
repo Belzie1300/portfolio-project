@@ -78,7 +78,7 @@ img {
 .navbar-brand {
   font-family: var(--heading-font-family);
 }
-@media (max-width: 500px) {
+@media (max-width: 540px) {
   .hero {
     padding: 190px 20px;
   }
