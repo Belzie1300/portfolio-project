@@ -12,12 +12,6 @@ ul {
   font-family: var(--font-option-1);
   font-size: 21px;
 }
-.hero {
-  background-color: var(--color-option-4);
-  text-align: center;
-  padding: 250px 30px;
-  color: var(--color-option-1);
-}
 h1 {
   font-size: 90px;
   line-height: 1.5;
@@ -38,6 +32,23 @@ p {
 img {
   border: 15px solid rgb(255, 190, 71, 0.7);
 }
+.hero {
+  background-color: var(--color-option-4);
+  text-align: center;
+  padding: 250px 30px;
+  color: var(--color-option-1);
+}
+.about-hero {
+  padding: 170px 0;
+}
+.about-hero h1 {
+  font-size: 70px;
+  color: var(--color-option-4);
+}
+.about-hero h2 {
+  font-size: 38px;
+  color: var(--color-option-1);
+}
 .bg-light {
   background-color: var(--color-option-3) !important;
 }
@@ -47,9 +58,20 @@ img {
   padding: 50px 0;
   font-family: var(--font-option-1);
 }
-.btn-outlin-warning {
-  background: var(--color-option-5) !important;
+.btn-outline-warning {
+  --bs-btn-colour: var(--color-option-5) !important;
+  --bs-btn-hover-color: var(--bs-white);
 }
+.btn-warning {
+  --bs-btn-bg: var(--color-option-5);
+  --bs-btn-color: #fff;
+  --bs-btn-hover-bg: #fff !important;
+  --bs-btn-hover-border-color: var(--color-option-1);
+  --bs-btn-hover-color: var(--color-option-1);
+  --bs-btn-border-radius: 0.5rem;
+  --bs-btn-font-weight: 400;
+}
+
 .project-description {
   padding: 60px 30px;
 }
@@ -59,6 +81,12 @@ img {
 @media (max-width: 500px) {
   .hero {
     padding: 190px 20px;
+  }
+  .about-hero {
+    padding: 120px 20px;
+  }
+  .about-hero h1 {
+    font-size: 60px;
   }
   h1 {
     font-size: 75px;
@@ -72,7 +100,4 @@ img {
     padding: 5px 15px;
     text-align: center;
   }
-}
-.portrait {
-  width: 500px;
 }
