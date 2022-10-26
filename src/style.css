@@ -83,6 +83,7 @@ img {
 }
 .navbar-brand {
   font-family: var(--heading-font-family);
+  font-size: 30px;
 }
 .tools {
   font-size: 24px;
@@ -96,7 +97,22 @@ img {
   font-size: 20px;
   font-weight: 600;
 }
+.contact-heading {
+  -webkit-text-stroke: 1px var(--color-option-1);
+}
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
 
+.network {
+  font-size: 80px;
+  color: var(--color-option-1);
+  margin: 30px;
+}
+.network:hover {
+  font-size: 90px;
+}
 @media (max-width: 540px) {
   .content-container {
     padding: 120px 20px;
