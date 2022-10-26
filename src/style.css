@@ -1,7 +1,6 @@
 :root {
   --heading-font-family: "Bodoni Moda", serif;
-  --body-font-family: "Source Code Pro", monospace;
-  --font-option-1: "Kantumruy Pro", sans-serif;
+  --body-font-family: "Kantumruy Pro", sans-serif;
   --color-option-1: #de8235;
   --color-option-2: #8facca;
   --color-option-3: #89a6c6;
@@ -9,7 +8,7 @@
   --color-option-5: #f7a701;
 }
 ul {
-  font-family: var(--font-option-1);
+  font-family: var(--body-font-family);
   font-size: 21px;
 }
 h1 {
@@ -17,16 +16,15 @@ h1 {
   line-height: 1.5;
   font-family: var(--heading-font-family);
   font-style: italic;
-
   font-weight: 600;
 }
 h2,
 h3 {
   font-size: 25px;
-  font-family: var(--font-option-1);
+  font-family: var(--body-font-family);
 }
 p {
-  font-family: var(--font-option-1);
+  font-family: var(--body-font-family);
   text-align: center;
 }
 img {
@@ -38,14 +36,14 @@ img {
   padding: 250px 30px;
   color: var(--color-option-1);
 }
-.about-hero {
-  padding: 170px 0;
+.content-container {
+  padding: 170px 30px;
 }
-.about-hero h1 {
+.content h1 {
   font-size: 70px;
   color: var(--color-option-4);
 }
-.about-hero h2 {
+.content h2 {
   font-size: 38px;
   color: var(--color-option-1);
 }
@@ -56,7 +54,7 @@ img {
   font-size: 38px;
   text-align: center;
   padding: 50px 0;
-  font-family: var(--font-option-1);
+  font-family: var(--body-font-family);
 }
 .btn-outline-warning {
   --bs-btn-colour: var(--color-option-5) !important;
@@ -82,10 +80,10 @@ img {
   .hero {
     padding: 190px 20px;
   }
-  .about-hero {
+  .content-container {
     padding: 120px 20px;
   }
-  .about-hero h1 {
+  .content h1 {
     font-size: 60px;
   }
   h1 {
