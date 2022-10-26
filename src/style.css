@@ -85,6 +85,13 @@ img {
   font-size: 24px;
   color: var(--color-option-1);
 }
+.links {
+  text-decoration: none;
+  color: #2e3348;
+}
+.links:hover {
+  text-decoration: underline;
+}
 @media (max-width: 540px) {
   .hero {
     padding: 190px 20px;
