@@ -55,6 +55,7 @@ img {
   text-align: center;
   padding: 50px 0;
   font-family: var(--body-font-family);
+  color: #de8235;
 }
 .btn-outline-warning {
   --bs-btn-colour: var(--color-option-5) !important;
@@ -69,12 +70,20 @@ img {
   --bs-btn-border-radius: 0.5rem;
   --bs-btn-font-weight: 400;
 }
+.project-name {
+  font-size: 28px;
+  color: var(--color-option-4);
+}
 
 .project-description {
   padding: 60px 30px;
 }
 .navbar-brand {
   font-family: var(--heading-font-family);
+}
+.tools {
+  font-size: 24px;
+  color: var(--color-option-1);
 }
 @media (max-width: 540px) {
   .hero {
