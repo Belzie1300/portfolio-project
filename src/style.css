@@ -29,6 +29,7 @@ p {
 }
 img {
   border: 15px solid rgb(255, 190, 71, 0.7);
+  border-radius: 10px;
 }
 .hero {
   background-color: var(--color-option-4);
@@ -37,7 +38,7 @@ img {
   color: var(--color-option-1);
 }
 .content-container {
-  padding: 170px 30px;
+  padding: 136px 30px;
 }
 .content h1 {
   font-size: 70px;
@@ -46,6 +47,7 @@ img {
 .content h2 {
   font-size: 38px;
   color: var(--color-option-1);
+  padding: 30px 0;
 }
 .bg-light {
   background-color: var(--color-option-3) !important;
@@ -76,7 +78,7 @@ img {
 }
 
 .project-description {
-  padding: 60px 30px;
+  padding: 29px 30px;
 }
 .navbar-brand {
   font-family: var(--heading-font-family);
@@ -90,11 +92,12 @@ img {
   color: #2e3348;
 }
 .links:hover {
-  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 600;
 }
 @media (max-width: 540px) {
   .hero {
-    padding: 190px 20px;
+    padding: 230px 20px;
   }
   .content-container {
     padding: 120px 20px;
