@@ -23,6 +23,10 @@ h3 {
   font-size: 25px;
   font-family: var(--body-font-family);
 }
+h4 {
+  font-size: 35px;
+  font-family: var(--body-font-family);
+}
 p {
   font-family: var(--body-font-family);
   text-align: center;
@@ -73,6 +77,18 @@ img {
   --bs-btn-border-radius: 0.5rem;
   --bs-btn-font-weight: 400;
 }
+.btn-primary {
+  margin-left: 10px;
+  padding: 15px;
+  --bs-btn-bg: var(--color-option-4);
+  --bs-btn-color: var(--color-option-1);
+  --bs-btn-border-color: var(--color-option-2);
+  --bs-btn-hover-border-color: var(--color-option-2);
+  --bs-btn-hover-bg: var(--color-option-1);
+  --bs-btn-font-family: var(--heading-font-family);
+  --bs-btn-hover-color: var(--color-option-4);
+  --bs-btn-font-weight: 700;
+}
 .project-name {
   font-size: 28px;
   color: var(--color-option-4);
@@ -113,6 +129,36 @@ img {
 .network:hover {
   font-size: 90px;
 }
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background: var(--color-option-2);
+  padding: 30px;
+}
+footer .email-link {
+  font-size: 25px;
+  text-decoration: none;
+  color: var(--color-option-4);
+  font-family: var(--body);
+}
+footer .email-link:hover {
+  color: var(--color-option-5);
+}
+footer .social-links i {
+  font-size: 24px;
+  margin: 0 20px;
+  padding: 20px;
+  color: var(--color-option-4);
+  background-color: var(--color-option-2);
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links i:hover {
+  color: var(--color-option-2);
+  background-color: var(--color-option-4);
+}
+
 @media (max-width: 540px) {
   .content-container {
     padding: 120px 20px;
