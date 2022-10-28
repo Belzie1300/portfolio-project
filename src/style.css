@@ -159,6 +159,9 @@ footer .social-links i:hover {
 }
 
 @media (max-width: 540px) {
+  .hero {
+    padding: 190px 30px;
+  }
   .content-container {
     padding: 120px 20px;
   }
@@ -176,5 +179,12 @@ footer .social-links i:hover {
     margin-bottom: 0;
     padding: 5px 15px;
     text-align: center;
+  }
+  .contact-section i {
+    font-size: 40px;
+  }
+
+  .content h3 {
+    font-size: 20px;
   }
 }
